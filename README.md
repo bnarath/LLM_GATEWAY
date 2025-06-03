@@ -4,6 +4,15 @@
 
 FastAPI is a Python framework for building fast RESTful web services that support input/output data validation, asynchronous operations, and provide an easy-to-use web interface for testing endpoints through Swagger UI.
 
+## API
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/input.png" width="100%" /></td>
+    <td width="50%"><img src="assets/output.png" width="100%" /></td>
+  </tr>
+</table>
+
 ## Installation
 
 1.  **Clone the repository:**
@@ -64,7 +73,7 @@ uvicorn gateway.main:app --host 0.0.0.0 --port 8000 --reload #reload is used whi
 ```
 Or, if you prefer not to activate the shell, you can use `poetry run`:
 ```bash
-poetry run uvicorn gateway.main:app --host 0.0.0.0 --port 8000--reload
+poetry run uvicorn gateway.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 The server will typically start on `http://0.0.0.0:8000`.
